@@ -1,0 +1,23 @@
+<!-- forum.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Forum - DavintoGlobalChatForum</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script defer src="/js/firebase.js"></script>
+  <script defer src="/js/forum.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>📚 Davinto Forum</h1>
+    <input type="text" id="topicTitle" placeholder="Enter topic title">
+    <textarea id="topicContent" placeholder="Write something..."></textarea>
+    <button onclick="createTopic()">Post Topic</button>
+    <hr>
+    <div id="topicList"></div>
+    <br>
+    <a href="index.html">👈 Back to Chat</a>
+  </div>
+</body>
+</html>
