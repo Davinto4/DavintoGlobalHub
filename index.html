@@ -1,0 +1,28 @@
+<!-- Project: DavintoGlobalChatForum --><!-- index.html - Global Chat Page --><!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DavintoGlobalChatForum - Global Chat</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <script defer src="/js/firebase.js"></script>
+  <script defer src="/js/chat.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🌍 Davinto Global Chat</h1>
+    <div id="loginSection">
+      <input type="email" id="email" placeholder="Email" />
+      <input type="password" id="password" placeholder="Password" />
+      <button onclick="login()">Login</button>
+      <button onclick="signup()">Sign Up</button>
+    </div>
+    <div id="chatSection" style="display:none;">
+      <div id="chatBox"></div>
+      <input type="text" id="messageInput" placeholder="Type your message..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+    <br>
+    <a href="forum.html">👉 Go to Forum</a>
+  </div>
+</body>
+</html>
