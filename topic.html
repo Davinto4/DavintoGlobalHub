@@ -1,0 +1,24 @@
+<!-- topic.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Topic View</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script defer src="/js/firebase.js"></script>
+  <script defer src="/js/topic.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1 id="topicTitle"></h1>
+    <p id="topicContent"></p>
+    <hr>
+    <div id="replies"></div>
+    <textarea id="replyInput" placeholder="Reply..."></textarea>
+    <button onclick="postReply()">Post Reply</button>
+    <br><br>
+    <a href="forum.html">👈 Back to Forum</a>
+  </div>
+</body>
+</html>
+
